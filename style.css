@@ -1,0 +1,227 @@
+body {
+  background-color: rgb(70, 70, 70);
+  color: #ffff;
+  font-family: "Nunito Sans", sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* navbar styles start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  border-bottom: 1px solid bisque;
+}
+
+.logo {
+  width: 8%;
+  font-family: Garamond, serif;
+  color: bisque;
+  border-right: 1.5px solid bisque;
+  padding-right: 5px;
+}
+
+.navbar__list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 70%;
+  margin-right: 80px;
+}
+
+.list__item a {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Courier New", monospace;
+}
+
+.list__item a:hover {
+  color: rgb(237, 161, 19);
+  transition: 1.8s;
+}
+
+/* navbar styles end */
+
+/* header styles start */
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.portrait {
+  width: 70%;
+  border-radius: 20px;
+}
+
+.header__name {
+  font-size: 30px;
+  margin-top: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(135, 135, 100);
+  text-align: center;
+}
+
+.header__right {
+  text-align: end;
+  width: 70%;
+}
+
+.header__quote {
+  font-size: 40px;
+  line-height: 110px;
+  text-align: center;
+  font-family: Garamond, serif;
+  color: beige;
+}
+
+.header__aza {
+  font-size: 30px;
+  color: beige;
+  font-family: Garamond, serif;
+}
+
+/* header styles end */
+
+/* content styles start */
+.content {
+  margin-top: 50px;
+}
+
+.content__title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: blanchedalmond;
+}
+
+.content__text {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 60px;
+  color: beige;
+}
+
+.content__left {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content__img-1 {
+  width: 40%;
+  border-radius: 15px;
+  height: 20%;
+  margin: 0;
+  margin-top: 100px;
+}
+
+.content__img-2 {
+  width: 40%;
+  margin: 30px 0;
+  border-radius: 15px;
+}
+
+.aya__text {
+  margin-top: -60px;
+  margin-left: 120px;
+  font-weight: 500;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(166, 161, 161);
+}
+
+.content__right-0 {
+  border-bottom: 1px solid bisque;
+  padding-bottom: 30px;
+}
+
+.content__right {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 60px;
+  color: beige;
+}
+
+/* content styles end */
+
+/* skills styles start */
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills__title {
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: blanchedalmond;
+}
+
+.skills__list {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 60px;
+  color: beige;
+}
+
+#language {
+  list-style-type: none;
+  margin-left: 30px;
+  color: rgba(205, 198, 205, 0.605);
+}
+
+.skills__img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: 1px solid blanchedalmond;
+}
+
+.skills__photo {
+  width: 40%;
+  margin: 55px;
+  border-radius: 15px;
+}
+
+/* skills styles end */
+
+/* experience styles start */
+.experience__title {
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: blanchedalmond;
+}
+
+.experience__text {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.experience__text-1 {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 60px;
+  color: beige;
+  width: 45%;
+}
+
+.experience__text-2 {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 60px;
+  color: beige;
+  width: 45%;
+}
+/* experience styles end */
